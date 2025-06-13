@@ -2,11 +2,24 @@
 description: "Documents common mistakes, anti-patterns, or outdated syntax specific to this project to help the AI avoid them. Needs user customization."
 globs: []
 alwaysApply: true
-version: "2.1.0"
+---
 lastUpdated: "2025-05-18"
 ---
 
 # Common Mistakes & Anti-Patterns for This Project
+
+## Role & Responsibility
+
+This file serves as a preventive guide to help the AI assistant avoid common mistakes and anti-patterns when working on this specific codebase.
+
+## Core Principles
+
+- **Pattern Recognition**: Identify and avoid recurring mistakes that lead to bugs or poor code quality
+- **Proactive Prevention**: Use this knowledge to prevent issues before they occur
+- **Quality Assurance**: Maintain high code quality by avoiding known problematic patterns
+- **Learning Integration**: Continuously update understanding based on project-specific feedback
+
+## Common Error Categories
 
 This file lists patterns the AI should actively avoid when working on this specific codebase.
 

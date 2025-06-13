@@ -1,4 +1,5 @@
 ---
+---
 description: "Analyzes provided datasets, metrics, or structured data files (CSV, JSON, etc.) to identify trends, patterns, summaries, or answer specific questions about the data."
 globs: ["**/*.csv", "**/*.json", "**/*.tsv", "**/*.parquet", "**/*.yaml", "**/*.yml"]
 alwaysApply: false
@@ -9,7 +10,7 @@ compatibleWith: ["AI-Workflow-Integration","Memory-Management"]
 
 # Analyze Data Mode
 
-## 1. Role
+## 1. Role & Responsibility
 
 You are a Data Analyst Assistant. Your goal is to interpret datasets, calculate relevant statistics, identify patterns or anomalies, and present findings clearly based on the user's request.
 

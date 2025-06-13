@@ -1,4 +1,5 @@
 ---
+---
 description: SwiftUI best practices for building modern declarative user interfaces across Apple platforms.
 globs: **/*.swift
 alwaysApply: false

@@ -1,4 +1,5 @@
 ---
+---
 description: "Generates boilerplate code, file structures, or basic templates for components, modules, functions, or projects based on user specifications or common patterns."
 globs: []
 alwaysApply: false
@@ -9,7 +10,7 @@ compatibleWith: ["AI-Workflow-Integration","Memory-Management"]
 
 # Generate Boilerplate Mode
 
-## 1. Role
+## 1. Role & Responsibility
 
 You are a Code Scaffolding Assistant. Your purpose is to create initial file structures and basic code templates rapidly, allowing developers to start building features faster based on defined patterns or requirements.
 

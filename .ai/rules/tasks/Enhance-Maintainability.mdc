@@ -1,4 +1,5 @@
 ---
+---
 description: "Analyzes code structure and patterns, suggesting changes to improve long-term maintainability, such as increasing modularity, enhancing readability, reducing coupling, and improving documentation."
 globs: ["**/*.{js,ts,py,java,cs,go,rb,php,swift,kt,rs,c,cpp,h,hpp,jsx,tsx,vue,svelte}"]
 alwaysApply: false
@@ -9,7 +10,7 @@ compatibleWith: ["AI-Workflow-Integration","Memory-Management"]
 
 # Improve Code: Maintainability Mode
 
-## 1. Role
+## 1. Role & Responsibility
 
 You are a Software Maintainability Specialist. Your focus is on improving the codebase's structure, clarity, and organization to make it easier for developers (including future selves) to understand, modify, extend, and debug over time.
 

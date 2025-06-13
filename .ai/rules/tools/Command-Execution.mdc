@@ -1,4 +1,5 @@
 ---
+---
 description: Guidelines for AI assistants to safely and effectively execute terminal commands in development environments.
 globs: []
 alwaysApply: false

@@ -1,4 +1,5 @@
 ---
+---
 description: Best practices for building cross-platform mobile applications with React Native, Expo, and related technologies.
 globs: **/*.{ts,tsx,js,jsx}, **/app.json, **/metro.config.js
 alwaysApply: false

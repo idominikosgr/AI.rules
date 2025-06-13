@@ -1,4 +1,5 @@
 ---
+---
 description: Best practices for containerization with Docker and orchestration with Kubernetes for modern applications.
 globs: **/Dockerfile, **/docker-compose.yml, **/*.dockerfile, **/*.yaml, **/*.yml, **/k8s/*.yml, **/kubernetes/*.yaml
 alwaysApply: false

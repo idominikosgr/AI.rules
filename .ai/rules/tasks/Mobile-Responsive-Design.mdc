@@ -1,4 +1,5 @@
 ---
+---
 description: "Reviews and implements mobile-responsive design patterns, ensuring applications provide optimal user experience across various device sizes, orientations, and interaction modes."
 globs: ["**/*.{html,css,scss,js,jsx,ts,tsx}", "**/media*/**", "**/*responsive*/**"]
 alwaysApply: false

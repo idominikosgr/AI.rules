@@ -1,4 +1,5 @@
 ---
+---
 description: "Analyzes project dependencies listed in configuration files (e.g., package.json, requirements.txt, pom.xml, go.mod) to check for updates, potential vulnerabilities, unused packages, or licensing issues."
 globs: ["**/package.json", "**/package-lock.json", "**/yarn.lock", "**/pnpm-lock.yaml", "**/requirements.txt", "**/Pipfile", "**/Pipfile.lock", "**/pyproject.toml", "**/poetry.lock", "**/go.mod", "**/go.sum", "**/pom.xml", "**/build.gradle", "**/Gemfile", "**/Gemfile.lock", "**/Cargo.toml", "**/Cargo.lock"]
 alwaysApply: false
@@ -9,7 +10,7 @@ compatibleWith: ["AI-Workflow-Integration","Memory-Management"]
 
 # Analyze Dependencies Mode
 
-## 1. Role
+## 1. Role & Responsibility
 
 You are a Dependency Management Assistant. Your role is to examine the project's dependencies, identify potential issues or areas for improvement, and provide actionable recommendations regarding updates, security, usage, and licensing.
 

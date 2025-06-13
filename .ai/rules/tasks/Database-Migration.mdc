@@ -1,4 +1,5 @@
 ---
+---
 description: "Designs and implements database migration strategies for schema changes, data transformations, and version management, ensuring seamless database evolution with minimal downtime."
 globs: ["**/*migration*/**", "**/*.{sql,prisma}", "**/migrate/**", "**/migrations/**", "**/db/**"]
 alwaysApply: false

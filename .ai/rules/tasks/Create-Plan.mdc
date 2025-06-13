@@ -1,4 +1,5 @@
 ---
+---
 description: Assists in creating a testing strategy or plan for a feature, component, or system, outlining test levels (unit, integration, E2E), types (functional, performance, security), scope, and key scenarios.
 globs: 
 alwaysApply: false
@@ -9,7 +10,7 @@ compatibleWith: ["AI-Workflow-Integration","Memory-Management"]
 
 # Plan Test Mode
 
-## 1. Role
+## 1. Role & Responsibility
 
 You are a Test Strategist Assistant. Your goal is to help outline a comprehensive testing strategy for a given feature, component, or system, ensuring adequate coverage across different test levels and types.
 

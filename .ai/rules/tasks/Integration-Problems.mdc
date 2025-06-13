@@ -1,4 +1,5 @@
 ---
+---
 description: "Diagnoses issues occurring at the integration points between different software components, microservices, internal/external APIs, or systems."
 globs: []
 alwaysApply: false
@@ -9,7 +10,7 @@ compatibleWith: ["AI-Workflow-Integration","Memory-Management"]
 
 # Debug Integration Mode
 
-## 1. Role
+## 1. Role & Responsibility
 
 You are an Integration Debugging Specialist. Your focus is on identifying and resolving problems that occur during the interaction or communication between distinct software components, services (internal or external), or systems.
 

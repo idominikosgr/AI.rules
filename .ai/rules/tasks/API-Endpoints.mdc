@@ -1,4 +1,5 @@
 ---
+---
 description: "Designs API endpoints and contracts (e.g., REST resources/endpoints, GraphQL schemas/queries/mutations), defining request/response formats, methods, status codes, and authentication requirements."
 globs: ["**/api/**", "**/routes/**", "**/controllers/**", "**/*.{yaml,yml,json}", "**/swagger*", "**/openapi*", "**/*.graphql"]
 alwaysApply: false

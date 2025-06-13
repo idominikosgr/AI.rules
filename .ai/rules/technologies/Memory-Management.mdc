@@ -1,4 +1,5 @@
 ---
+---
 description: Best practices for managing AI memories across development sessions, capturing key milestones, and maintaining project context.
 globs: **/*.py, **/*.js, **/*.ts, **/*.md
 alwaysApply: true

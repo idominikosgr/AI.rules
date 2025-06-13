@@ -1,4 +1,5 @@
 ---
+---
 description: Best practices for SwiftData, Apple's framework for data modeling, persistence, and synchronization.
 globs: **/*.swift, **/*.xcodeproj, **/*.xcworkspace
 alwaysApply: false

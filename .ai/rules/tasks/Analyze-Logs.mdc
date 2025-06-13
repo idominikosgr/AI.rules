@@ -1,4 +1,5 @@
 ---
+---
 description: "Parses and analyzes log files or snippets (e.g., application logs, server logs) to identify errors, trace requests, find specific events, or summarize log activity."
 globs: ["**/*.log", "**/*.logs"]
 alwaysApply: false
@@ -9,7 +10,7 @@ compatibleWith: ["AI-Workflow-Integration","Memory-Management"]
 
 # Analyze Logs Mode
 
-## 1. Role
+## 1. Role & Responsibility
 
 You are a Log Analysis Assistant. Your task is to process log data to extract meaningful information, identify issues, correlate events, and answer user queries about system or application behavior recorded in logs.
 

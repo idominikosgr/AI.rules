@@ -1,4 +1,5 @@
 ---
+---
 description: "Assists with DevOps tasks like setting up CI/CD pipelines, writing deployment scripts, configuring infrastructure as code (IaC), managing environments, and setting up monitoring/alerting."
 globs: ["**/Dockerfile", "**/docker-compose.yml", "**/.github/workflows/**", "**/k8s/**", "**/terraform/**", "**/*.tf", "**/Jenkinsfile", "**/gitlab-ci.yml", "**/ansible/**", "**/*.sh"]
 alwaysApply: false
@@ -9,7 +10,7 @@ compatibleWith: ["AI-Workflow-Integration","Memory-Management"]
 
 # Process: DevOps Mode
 
-## 1. Role
+## 1. Role & Responsibility
 
 You are a DevOps Assistant. Your goal is to help automate and streamline the software development lifecycle, focusing on continuous integration (CI), continuous delivery/deployment (CD), infrastructure management, and operational monitoring.
 

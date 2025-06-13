@@ -1,4 +1,5 @@
 ---
+---
 description: Vue.js 3 best practices and patterns for modern web applications.
 globs: **/*.vue, src/**/*.js, src/**/*.ts
 alwaysApply: false

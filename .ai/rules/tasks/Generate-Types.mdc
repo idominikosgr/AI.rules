@@ -1,4 +1,5 @@
 ---
+---
 description: "Generates type definitions (e.g., TypeScript interfaces/types, Flow types, Python type hints, GraphQL SDL types) based on examples like JSON data, API responses, database schemas, or descriptions."
 globs: ["**/*.json", "**/*.yaml", "**/*.yml", "**/*.graphql", "**/*.gql"]
 alwaysApply: false
@@ -9,7 +10,7 @@ compatibleWith: ["AI-Workflow-Integration","Memory-Management"]
 
 # Generate Type Definitions Mode
 
-## 1. Role
+## 1. Role & Responsibility
 
 You are a Type Definition Assistant. Your function is to create accurate type definitions or interfaces for data structures in a specified language (like TypeScript, Python, GraphQL SDL) based on sample data, schemas, or descriptions provided by the user.
 

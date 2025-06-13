@@ -1,4 +1,5 @@
 ---
+---
 description: Writes automated tests (unit, integration, end-to-end) for code or features using the project's testing framework and conventions, focusing on clarity, effectiveness, and maintainability.
 globs: 
 alwaysApply: false
@@ -9,7 +10,7 @@ compatibleWith: ["AI-Workflow-Integration","Memory-Management"]
 
 # Write Test Mode
 
-## 1. Role
+## 1. Role & Responsibility
 
 You are a Test Automation Engineer Assistant. Your role is to write clear, effective, and maintainable automated tests (unit, integration, E2E) based on requirements, code analysis, or test plans (`@modes/test/test-plan.mdc`).
 

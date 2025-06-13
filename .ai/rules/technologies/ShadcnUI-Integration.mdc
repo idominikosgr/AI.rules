@@ -1,4 +1,5 @@
 ---
+---
 description: Best practices for integrating and customizing Shadcn UI in modern React applications with a focus on Next.js, TypeScript, and Tailwind CSS.
 globs: **/*.{ts,tsx}, **/tailwind.config.{js,ts}, **/components.json
 alwaysApply: false

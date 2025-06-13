@@ -1,4 +1,5 @@
 ---
+---
 description: React best practices and patterns for modern web applications
 globs: **/*.tsx, **/*.jsx, src/components/**/*, app/components/**/*
 alwaysApply: false

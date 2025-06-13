@@ -1,4 +1,5 @@
 ---
+---
 description: Advanced techniques for sequential thinking and complex problem decomposition with AI assistants.
 globs: **/*.mcp.json, **/*.js, **/*.ts, **/*.py
 alwaysApply: false

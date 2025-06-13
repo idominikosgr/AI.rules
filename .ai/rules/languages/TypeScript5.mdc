@@ -1,4 +1,5 @@
 ---
+---
 description: TypeScript coding standards and best practices.
 globs: **/*.ts, **/*.tsx, tsconfig.json
 alwaysApply: false

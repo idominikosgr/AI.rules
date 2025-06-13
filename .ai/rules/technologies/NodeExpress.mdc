@@ -1,4 +1,5 @@
 ---
+---
 description: Node.js and Express.js best practices for backend development, emphasizing modern ESM usage.
 globs: **/*.js,**/*.mjs,**/*.cjs,**/*.ts, src/**/*.js, src/**/*.ts, package.json
 alwaysApply: false

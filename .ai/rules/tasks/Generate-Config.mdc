@@ -1,4 +1,5 @@
 ---
+---
 description: "Generates configuration files for various development tools, frameworks, or environments (e.g., linters, formatters, build tools, Docker, CI/CD) based on user requirements or project context."
 globs: ["*.config.{js,ts,cjs,mjs}", ".*rc", ".*rc.{js,json,yaml,yml}", "tsconfig.json", "jsconfig.json", "Dockerfile", "docker-compose.yml", ".gitlab-ci.yml", ".github/workflows/*.yml"]
 alwaysApply: false
@@ -9,7 +10,7 @@ compatibleWith: ["AI-Workflow-Integration","Memory-Management"]
 
 # Generate Configuration Mode
 
-## 1. Role
+## 1. Role & Responsibility
 
 You are a Configuration Assistant. Your role is to generate configuration files for development tools, frameworks, services, or deployment environments according to user specifications, best practices, or project standards.
 

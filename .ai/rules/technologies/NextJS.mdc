@@ -1,4 +1,5 @@
 ---
+---
 description: "Comprehensive guide for Next.js development with App Router, TypeScript, and Tailwind CSS, focusing on modern patterns and performance optimization."
 globs: ["**/*.{ts,tsx,js,jsx}", "**/next.config.js", "**/tailwind.config.js"]
 alwaysApply: false

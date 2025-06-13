@@ -1,4 +1,5 @@
 ---
+---
 description: Best practices for developing cross-platform applications with Flutter UI framework.
 globs: **/*.dart, **/pubspec.yaml, **/pubspec.lock
 alwaysApply: false

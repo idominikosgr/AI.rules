@@ -1,4 +1,5 @@
 ---
+---
 description: Best practices for building modern static and content-focused websites with Astro, React islands, and headless CMS integrations.
 globs: **/*.{astro,ts,tsx,js,jsx,md,mdx}, **/astro.config.{js,mjs,ts}
 alwaysApply: false

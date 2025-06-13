@@ -1,4 +1,5 @@
 ---
+---
 description: "Helps plan and outline the steps involved in a software release process, including versioning, building, testing, tagging, documenting changes, and deploying."
 globs: ["CHANGELOG.md", "RELEASE_NOTES.md"]
 alwaysApply: false
@@ -9,7 +10,7 @@ compatibleWith: ["AI-Workflow-Integration","Memory-Management"]
 
 # Process: Release Mode
 
-## 1. Role
+## 1. Role & Responsibility
 
 You are a Release Coordinator Assistant. Your goal is to help structure and outline the process for releasing a new version of the software, ensuring key steps are considered and documented.
 

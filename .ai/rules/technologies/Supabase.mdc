@@ -1,4 +1,5 @@
 ---
+---
 description: "Guidelines for using Supabase Auth, Database (Postgres migrations), Storage, Realtime, Edge Functions, and AI/Vectors."
 globs: "supabase/migrations/**/*.sql,supabase/seed.sql,supabase/functions/**/*,lib/supabase*.ts,lib/supabase*.js,*supabase*,*pgvector*"
 alwaysApply: false

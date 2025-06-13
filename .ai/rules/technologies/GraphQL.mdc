@@ -1,4 +1,5 @@
 ---
+---
 description: Best practices for GraphQL API development and integration across client and server applications.
 globs: **/*.graphql, **/*.gql, **/schema.graphql, **/schema.js, **/resolvers.js, **/gql*.ts, **/useQuery*.ts
 alwaysApply: false

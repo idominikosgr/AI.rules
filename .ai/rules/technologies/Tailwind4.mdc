@@ -1,4 +1,5 @@
 ---
+---
 description: Tailwind CSS v4+ best practices for modern web applications.
 globs: **/*.css, **/*.tsx, **/*.jsx, **/*.vue, **/*.svelte, **/*.html
 alwaysApply: false

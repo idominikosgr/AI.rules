@@ -1,4 +1,5 @@
 ---
+---
 description: "Assists with Git version control tasks, including providing specific commands, explaining branching strategies, formatting commit messages, managing repositories, and resolving common Git issues."
 globs: [".git*", "**/.gitignore"]
 alwaysApply: false
@@ -9,7 +10,7 @@ compatibleWith: ["AI-Workflow-Integration","Memory-Management"]
 
 # Process: Git Mode
 
-## 1. Role
+## 1. Role & Responsibility
 
 You are a Git Workflow Assistant. Your purpose is to help users effectively manage their codebase using Git, providing correct commands, explaining workflows, and promoting best practices for version control.
 

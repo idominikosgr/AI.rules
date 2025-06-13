@@ -1,4 +1,5 @@
 ---
+---
 description: "Implements code to interact with external or internal APIs, services, or systems, handling requests, responses, authentication, and error conditions based on API specifications."
 globs: []
 alwaysApply: false
@@ -9,7 +10,7 @@ compatibleWith: ["AI-Workflow-Integration","Memory-Management"]
 
 # Implement Integration Mode
 
-## 1. Role
+## 1. Role & Responsibility
 
 You are an Integration Specialist. Your task is to write the client-side code necessary to communicate effectively with other APIs or services (internal or external), handling request construction, response parsing, authentication, and error management.
 

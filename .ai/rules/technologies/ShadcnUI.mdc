@@ -1,4 +1,5 @@
 ---
+---
 description: Best practices and guidelines for working with shadcn/ui components across various frameworks.
 globs: components.json, src/components/ui/**, app/components/ui/**, src/lib/utils.*, app/lib/utils.*, **/*.tsx, **/*.jsx
 alwaysApply: false

@@ -1,8 +1,12 @@
 ---
+description: 
+globs: 
+alwaysApply: false
+---
 description: "Specialized instructions for AI assistants conducting code reviews, focusing on identifying issues, suggesting improvements, and ensuring code quality."
 globs: ["**/*.{js,ts,py,java,rb,go,cs,php,swift,kt,rs,cpp}", "**/src/**", "**/lib/**", "**/test/**"]
 alwaysApply: false
-version: "2.0.0"
+---
 lastUpdated: "2025-05-17"
 compatibleWith: ["AI-Workflow-Integration", "Memory-Management", "Sequential-Thinking"]
 ---

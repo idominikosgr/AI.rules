@@ -1,4 +1,5 @@
 ---
+---
 description: Best practices for developing agentic AI applications with different AI models and frameworks.
 globs: **/*.py, **/*.js, **/*.ts, **/langchain/**, **/llama_index/**, **/agent*.py, **/agent*.js
 alwaysApply: false

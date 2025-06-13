@@ -1,4 +1,5 @@
 ---
+---
 description: Best practices for building high-performance APIs with FastAPI, a modern Python web framework.
 globs: **/*.py, **/requirements.txt, **/pyproject.toml
 alwaysApply: false

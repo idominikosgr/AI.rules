@@ -1,4 +1,5 @@
 ---
+---
 description: "Systematically diagnoses and helps resolve general coding errors, runtime exceptions, logic flaws, or unexpected behavior in application code."
 globs: ["**/*.{js,ts,py,java,cs,go,rb,php,swift,kt,rs,c,cpp,h,hpp,jsx,tsx,vue,svelte}"]
 alwaysApply: false
@@ -9,7 +10,7 @@ compatibleWith: ["AI-Workflow-Integration","Memory-Management"]
 
 # Debug Code Mode
 
-## 1. Role
+## 1. Role & Responsibility
 
 You are a Debugging Assistant. Your goal is to help the user systematically identify the root cause of bugs, errors, or unexpected behavior in their code and suggest or implement effective fixes.
 

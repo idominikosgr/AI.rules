@@ -1,4 +1,5 @@
 ---
+---
 description: "Reviews and ensures application compatibility across different browsers, addressing browser-specific issues, feature support, and rendering differences to provide consistent user experience."
 globs: ["**/*.{html,css,js,jsx,ts,tsx}", "**/browserslist*", "**/polyfill*"]
 alwaysApply: false

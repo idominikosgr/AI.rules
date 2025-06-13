@@ -1,4 +1,5 @@
 ---
+---
 description: "Guidelines for creating effective AI session handoffs to maintain continuity across development sessions, preserving context and progress."
 globs: ["**/*.{py,js,ts,jsx,tsx,md}", "**/src/**", "**/lib/**", "**/docs/**"]
 alwaysApply: true

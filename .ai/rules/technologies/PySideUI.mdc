@@ -1,4 +1,5 @@
 ---
+---
 description: Best practices for PySide/PyQt UI development in Python for cross-platform desktop applications.
 globs: **/*.py, **/*.ui, **/requirements.txt, **/pyproject.toml
 alwaysApply: false

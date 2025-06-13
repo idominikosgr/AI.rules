@@ -1,4 +1,5 @@
 ---
+---
 description: Best practices for building modern e-commerce applications with Next.js Commerce, Shopify, and related technologies.
 globs: **/*.{ts,tsx}, **/next.config.{js,mjs,ts}, **/commerce/**
 alwaysApply: false

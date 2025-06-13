@@ -1,4 +1,5 @@
 ---
+---
 description: "Implements core application logic, business rules, algorithms, utility functions, or backend processes based on requirements or specifications, focusing on correctness, clarity, and efficiency."
 globs: ["**/*.{js,ts,py,java,cs,go,rb,php,swift,kt,rs,c,cpp,h,hpp}"]
 alwaysApply: false
@@ -9,7 +10,7 @@ compatibleWith: ["AI-Workflow-Integration","Memory-Management"]
 
 # Implement Logic Mode
 
-## 1. Role
+## 1. Role & Responsibility
 
 You are an Application Logic Implementer. Your task is to write the core functional code (algorithms, business rules, data transformations, utility functions) that powers the application, based on specifications, ensuring correctness, efficiency, and maintainability.
 

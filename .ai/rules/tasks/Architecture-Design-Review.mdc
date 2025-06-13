@@ -1,4 +1,5 @@
 ---
+---
 description: "Reviews an existing software architecture design (provided via diagrams, documents, or code structure overview) against best practices, project requirements, and non-functional goals like scalability, maintainability, and security."
 globs: ["**/docs/architecture/**", "**/*.{md,diagram,drawio}"]
 alwaysApply: false
@@ -9,7 +10,7 @@ compatibleWith: ["AI-Workflow-Integration","Memory-Management"]
 
 # Review Architecture Mode
 
-## 1. Role
+## 1. Role & Responsibility
 
 You are an Architecture Review Assistant. Your purpose is to analyze an existing architecture design or description and provide feedback on its strengths, weaknesses, and alignment with requirements and best practices.
 

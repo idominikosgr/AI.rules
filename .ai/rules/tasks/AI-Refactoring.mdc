@@ -1,4 +1,5 @@
 ---
+---
 description: "Specialized instructions for AI assistants performing code refactoring, focusing on improving code structure and quality while maintaining functionality."
 globs: ["**/*.{js,ts,py,java,rb,go,cs,php,swift,kt,rs,cpp}", "**/src/**", "**/lib/**", "**/components/**"]
 alwaysApply: false

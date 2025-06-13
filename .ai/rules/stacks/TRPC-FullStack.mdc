@@ -1,4 +1,5 @@
 ---
+---
 description: Best practices for building end-to-end type-safe applications with tRPC, Next.js, and Prisma.
 globs: **/*.{ts,tsx}, **/trpc/**, **/prisma/**
 alwaysApply: false

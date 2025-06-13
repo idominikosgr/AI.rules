@@ -1,4 +1,5 @@
 ---
+---
 description: Best practices for Tauri - a framework for building lightweight, secure desktop applications with web technologies.
 globs: **/tauri.conf.json, **/src-tauri/**, **/Cargo.toml, **/*.rs
 alwaysApply: false

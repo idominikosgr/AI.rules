@@ -1,4 +1,5 @@
 ---
+---
 description: Best practices for building applications with the Supabase-Next.js full stack, including TypeScript, Tailwind CSS, and Shadcn UI.
 globs: **/*.{ts,tsx,js,jsx}, **/next.config.{js,mjs,ts}, **/supabase/**
 alwaysApply: false

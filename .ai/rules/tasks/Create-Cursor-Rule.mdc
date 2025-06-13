@@ -1,4 +1,5 @@
 ---
+---
 description: Assists in creating new AI rule (.mdc) files for any supported IDE or AI assistant, ensuring correct formatting and structure.
 globs:
 alwaysApply: false

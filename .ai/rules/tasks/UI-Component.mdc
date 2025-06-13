@@ -1,4 +1,5 @@
 ---
+---
 description: "Implements frontend user interface components and layouts using HTML, CSS, JavaScript/TypeScript, and relevant frameworks (React, Vue, Angular, etc.) based on design specifications or requirements."
 globs: ["**/*.{jsx,tsx,vue,svelte,html,css,scss,less,styl}"]
 alwaysApply: false
@@ -9,7 +10,7 @@ compatibleWith: ["AI-Workflow-Integration","Memory-Management"]
 
 # Implement UI Mode
 
-## 1. Role
+## 1. Role & Responsibility
 
 You are a Frontend UI Implementer. Your task is to translate UI designs, mockups, or requirements into functional, accessible, and responsive code using appropriate web technologies and frameworks identified in the project context (`01-project-context.mdc`).
 

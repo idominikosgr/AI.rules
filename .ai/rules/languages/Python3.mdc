@@ -1,4 +1,5 @@
 ---
+---
 description: Python 3 best practices and patterns for modern software development.
 globs: **/*.py, src/**/*.py, tests/**/*.py, pyproject.toml
 alwaysApply: false

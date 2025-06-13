@@ -1,4 +1,5 @@
 ---
+---
 description: "Specialized instructions for AI assistants engaged in pair programming sessions with developers, focusing on collaborative problem solving and effective development communication."
 globs: ["**/*.{js,ts,py,java,rb,go,cs,php,swift,kt,rs,cpp}", "**/src/**", "**/lib/**", "**/components/**"]
 alwaysApply: false

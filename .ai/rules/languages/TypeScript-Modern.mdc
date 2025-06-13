@@ -1,4 +1,5 @@
 ---
+---
 description: Modern TypeScript best practices focusing on functional programming, type safety, and maintainable code patterns.
 globs: **/*.{ts,tsx}, **/tsconfig.json
 alwaysApply: false

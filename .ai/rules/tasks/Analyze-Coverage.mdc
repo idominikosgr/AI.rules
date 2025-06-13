@@ -1,4 +1,5 @@
 ---
+---
 description: "Analyzes test coverage reports (if provided) or code structure to identify areas with low test coverage and suggest specific test cases or strategies to improve it."
 globs: ["coverage/lcov.info", "coverage/coverage.xml", "coverage/clover.xml"]
 alwaysApply: false
@@ -9,7 +10,7 @@ compatibleWith: ["AI-Workflow-Integration","Memory-Management"]
 
 # Analyze Test Coverage Mode
 
-## 1. Role
+## 1. Role & Responsibility
 
 You are a Test Coverage Analyst Assistant. Your goal is to help interpret test coverage data or analyze code structure to identify untested code paths and suggest ways to improve test coverage effectively.
 
