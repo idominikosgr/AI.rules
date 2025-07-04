@@ -1,11 +1,19 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: Kotlin best practices and patterns for Android, server-side, and multiplatform development.
-globs: **/*.kt, **/*.kts, **/build.gradle.kts
+globs:
+  - "**/*.kt"
+  - "**/*.kts"
+  - "**/build.gradle.kts"
 alwaysApply: false
 version: "2.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["Android","SpringBoot"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "Android"
+  - "SpringBoot"
 ---
 
 # Kotlin Best Practices

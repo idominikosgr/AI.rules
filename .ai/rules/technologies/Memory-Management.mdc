@@ -1,11 +1,21 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: Best practices for managing AI memories across development sessions, capturing key milestones, and maintaining project context.
-globs: **/*.py, **/*.js, **/*.ts, **/*.md
+globs:
+  - "**/*.py"
+  - "**/*.js"
+  - "**/*.ts"
+  - "**/*.md"
 alwaysApply: true
 version: "1.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["Memory-MCP", "Sequential-Thinking-Advanced", "AI-Workflow-Integration"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "Memory-MCP"
+  - "Sequential-Thinking-Advanced"
+  - "AI-Workflow-Integration"
 ---
 
 # Memory Management Best Practices

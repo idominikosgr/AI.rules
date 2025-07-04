@@ -1,11 +1,19 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: Best practices for developing cross-platform applications with Flutter UI framework.
-globs: **/*.dart, **/pubspec.yaml, **/pubspec.lock
+globs:
+  - "**/*.dart"
+  - "**/pubspec.yaml"
+  - "**/pubspec.lock"
 alwaysApply: false
 version: "2.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["Memory-MCP","Sequential-Thinking-Advanced"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "Memory-MCP"
+  - "Sequential-Thinking-Advanced"
 ---
 
 # Flutter Best Practices

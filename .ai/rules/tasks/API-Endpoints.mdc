@@ -1,11 +1,24 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: "Designs API endpoints and contracts (e.g., REST resources/endpoints, GraphQL schemas/queries/mutations), defining request/response formats, methods, status codes, and authentication requirements."
-globs: ["**/api/**", "**/routes/**", "**/controllers/**", "**/*.{yaml,yml,json}", "**/swagger*", "**/openapi*", "**/*.graphql"]
+globs:
+  - "**/api/**"
+  - "**/routes/**"
+  - "**/controllers/**"
+  - "**/*.{yaml,yml,json}"
+  - "**/swagger*"
+  - "**/openapi*"
+  - "**/*.graphql"
 alwaysApply: false
 version: "2.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["AI-Workflow-Integration","Memory-Management","Sequential-Thinking"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "AI-Workflow-Integration"
+  - "Memory-Management"
+  - "Sequential-Thinking"
 ---
 
 # API Design Mode

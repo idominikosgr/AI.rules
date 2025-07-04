@@ -1,11 +1,26 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: "Assists with DevOps tasks like setting up CI/CD pipelines, writing deployment scripts, configuring infrastructure as code (IaC), managing environments, and setting up monitoring/alerting."
-globs: ["**/Dockerfile", "**/docker-compose.yml", "**/.github/workflows/**", "**/k8s/**", "**/terraform/**", "**/*.tf", "**/Jenkinsfile", "**/gitlab-ci.yml", "**/ansible/**", "**/*.sh"]
+globs:
+  - "**/Dockerfile"
+  - "**/docker-compose.yml"
+  - "**/.github/workflows/**"
+  - "**/k8s/**"
+  - "**/terraform/**"
+  - "**/*.tf"
+  - "**/Jenkinsfile"
+  - "**/gitlab-ci.yml"
+  - "**/ansible/**"
+  - "**/*.sh"
 alwaysApply: false
 version: "2.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["AI-Workflow-Integration","Memory-Management"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "AI-Workflow-Integration"
+  - "Memory-Management"
 ---
 
 # Process: DevOps Mode

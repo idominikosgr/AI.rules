@@ -1,11 +1,28 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: C++20/23 best practices and patterns for modern software development.
-globs: **/*.c,**/*.cpp,**/*.h,**/*.hpp,**/*.cxx,CMakeLists.txt,*.cmake,conanfile.txt,conanfile.py,vcpkg.json,meson.build,**/*.cc
+globs:
+  - "**/*.c"
+  - "**/*.cpp"
+  - "**/*.h"
+  - "**/*.hpp"
+  - "**/*.cxx"
+  - "CMakeLists.txt"
+  - "*.cmake"
+  - "conanfile.txt"
+  - "conanfile.py"
+  - "vcpkg.json"
+  - "meson.build"
+  - "**/*.cc"
 alwaysApply: false
 version: "2.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["CMake","ModernCPP"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "CMake"
+  - "ModernCPP"
 ---
 
 # C++20/23 Programming Guidelines

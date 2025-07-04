@@ -1,11 +1,26 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: "Guidelines and best practices for using Clerk for authentication and user management across various frameworks."
-globs: "**/clerk*.ts,**/clerk*.js,**/clerk*.astro,**/clerk*.jsx,**/clerk*.tsx,**/clerk*.vue,src/middleware.ts,src/middleware.js,*clerk*,*auth*"
+globs:
+  - "**/clerk*.ts"
+  - "**/clerk*.js"
+  - "**/clerk*.astro"
+  - "**/clerk*.jsx"
+  - "**/clerk*.tsx"
+  - "**/clerk*.vue"
+  - "src/middleware.ts"
+  - "src/middleware.js"
+  - "*clerk*"
+  - "*auth*"
 alwaysApply: false
 version: "2.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["Memory-MCP","Sequential-Thinking-Advanced"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "Memory-MCP"
+  - "Sequential-Thinking-Advanced"
 ---
 
 # Clerk Development Guidelines

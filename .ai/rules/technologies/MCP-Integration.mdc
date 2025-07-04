@@ -1,11 +1,22 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: Best practices for integrating Model Context Protocol servers and implementing effective memory patterns.
-globs: **/*.mcp.json, **/*.js, **/*.ts, **/*.py
+globs:
+  - "**/*.mcp.json"
+  - "**/*.js"
+  - "**/*.ts"
+  - "**/*.py"
 alwaysApply: false
 version: "1.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["Memory-MCP", "Sequential-Thinking", "TypeScript-Modern", "Python3"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "Memory-MCP"
+  - "Sequential-Thinking"
+  - "TypeScript-Modern"
+  - "Python3"
 ---
 
 # MCP Server Integration Best Practices

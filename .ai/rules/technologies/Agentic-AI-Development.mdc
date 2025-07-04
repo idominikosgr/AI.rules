@@ -1,11 +1,25 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: Best practices for developing agentic AI applications with different AI models and frameworks.
-globs: **/*.py, **/*.js, **/*.ts, **/langchain/**, **/llama_index/**, **/agent*.py, **/agent*.js
+globs:
+  - "**/*.py"
+  - "**/*.js"
+  - "**/*.ts"
+  - "**/langchain/**"
+  - "**/llama_index/**"
+  - "**/agent*.py"
+  - "**/agent*.js"
 alwaysApply: false
 version: "1.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["Python3", "TypeScript-Modern", "Memory-MCP", "Sequential-Thinking"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "Python3"
+  - "TypeScript-Modern"
+  - "Memory-MCP"
+  - "Sequential-Thinking"
 ---
 
 # Agentic AI Development Best Practices

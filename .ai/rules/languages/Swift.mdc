@@ -1,11 +1,21 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: Swift 5.9/6.0 best practices and patterns for modern iOS, macOS, and multiplatform development.
-globs: **/*.swift, Package.swift, *.xcodeproj/*, *.xcworkspace/*
+globs:
+  - "**/*.swift"
+  - "Package.swift"
+  - "*.xcodeproj/*"
+  - "*.xcworkspace/*"
 alwaysApply: false
 version: "2.1.0"
-lastUpdated: "2025-05-18"
-compatibleWith: ["SwiftUI", "SwiftData", "Combine"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "SwiftUI"
+  - "SwiftData"
+  - "Combine"
 ---
 
 # Swift 5.9/6.1 Best Practices

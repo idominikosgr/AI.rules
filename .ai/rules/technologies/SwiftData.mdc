@@ -1,11 +1,19 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: Best practices for SwiftData, Apple's framework for data modeling, persistence, and synchronization.
-globs: **/*.swift, **/*.xcodeproj, **/*.xcworkspace
+globs:
+  - "**/*.swift"
+  - "**/*.xcodeproj"
+  - "**/*.xcworkspace"
 alwaysApply: false
 version: "1.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["Swift", "SwiftUI"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "Swift"
+  - "SwiftUI"
 ---
 
 # SwiftData Best Practices

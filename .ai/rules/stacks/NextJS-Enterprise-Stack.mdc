@@ -1,11 +1,20 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: Best practices for building enterprise-grade applications with Next.js, TypeScript, Tailwind CSS, and Shadcn UI.
-globs: **/*.{ts,tsx}, **/next.config.{js,mjs,ts}, **/prisma/**
+globs:
+  - "**/*.{ts,tsx}"
+  - "**/next.config.{js,mjs,ts}"
+  - "**/prisma/**"
 alwaysApply: false
 version: "2.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["NextJS15","TypeScript-Modern","React19"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "NextJS15"
+  - "TypeScript-Modern"
+  - "React19"
 ---
 
 # Next.js Enterprise Stack

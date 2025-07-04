@@ -1,11 +1,20 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: Advanced techniques for sequential thinking and complex problem decomposition with AI assistants.
-globs: **/*.mcp.json, **/*.js, **/*.ts, **/*.py
+globs:
+  - "**/*.mcp.json"
+  - "**/*.js"
+  - "**/*.ts"
+  - "**/*.py"
 alwaysApply: false
 version: "1.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["Memory-MCP", "MCP-Integration"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "Memory-MCP"
+  - "MCP-Integration"
 ---
 
 # Sequential Thinking Advanced Techniques

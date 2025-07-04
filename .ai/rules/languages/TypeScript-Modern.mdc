@@ -1,11 +1,19 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: Modern TypeScript best practices focusing on functional programming, type safety, and maintainable code patterns.
-globs: **/*.{ts,tsx}, **/tsconfig.json
+globs:
+  - "**/*.{ts,tsx}"
+  - "**/tsconfig.json"
 alwaysApply: false
 version: "2.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["React19","NextJS15","NodeExpress"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "React19"
+  - "NextJS15"
+  - "NodeExpress"
 ---
 
 # Modern TypeScript Best Practices

@@ -1,11 +1,18 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: "Reviews an existing software architecture design (provided via diagrams, documents, or code structure overview) against best practices, project requirements, and non-functional goals like scalability, maintainability, and security."
-globs: ["**/docs/architecture/**", "**/*.{md,diagram,drawio}"]
+globs:
+  - "**/docs/architecture/**"
+  - "**/*.{md,diagram,drawio}"
 alwaysApply: false
 version: "2.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["AI-Workflow-Integration","Memory-Management"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "AI-Workflow-Integration"
+  - "Memory-Management"
 ---
 
 # Review Architecture Mode

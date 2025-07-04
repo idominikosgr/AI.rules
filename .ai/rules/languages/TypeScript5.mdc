@@ -1,11 +1,19 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: TypeScript coding standards and best practices.
-globs: **/*.ts, **/*.tsx, tsconfig.json
+globs:
+  - "**/*.ts"
+  - "**/*.tsx"
+  - "tsconfig.json"
 alwaysApply: false
 version: "2.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["TypeScript-Modern","Python3"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "TypeScript-Modern"
+  - "Python3"
 ---
 
 # TypeScript Best Practices

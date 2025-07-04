@@ -1,11 +1,19 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: Best practices for building cross-platform mobile applications with React Native, Expo, and related technologies.
-globs: **/*.{ts,tsx,js,jsx}, **/app.json, **/metro.config.js
+globs:
+  - "**/*.{ts,tsx,js,jsx}"
+  - "**/app.json"
+  - "**/metro.config.js"
 alwaysApply: false
 version: "2.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["TypeScript-Modern","React19"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "TypeScript-Modern"
+  - "React19"
 ---
 
 # Mobile/Cross-Platform React Native Stack

@@ -1,11 +1,16 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikospritis/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: Best practices for using Sequential Thinking MCP server for structured, step-by-step code generation and problem-solving.
 globs: []
 alwaysApply: false
 version: "2.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["Memory-MCP","Sequential-Thinking-Advanced"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "Memory-MCP"
+  - "Sequential-Thinking-Advanced"
 ---
 
 # Sequential Thinking for Code Generation

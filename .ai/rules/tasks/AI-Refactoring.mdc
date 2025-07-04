@@ -1,11 +1,21 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: "Specialized instructions for AI assistants performing code refactoring, focusing on improving code structure and quality while maintaining functionality."
-globs: ["**/*.{js,ts,py,java,rb,go,cs,php,swift,kt,rs,cpp}", "**/src/**", "**/lib/**", "**/components/**"]
+globs:
+  - "**/*.{js,ts,py,java,rb,go,cs,php,swift,kt,rs,cpp}"
+  - "**/src/**"
+  - "**/lib/**"
+  - "**/components/**"
 alwaysApply: false
 version: "2.0.0"
-lastUpdated: "2025-05-17"
-compatibleWith: ["AI-Workflow-Integration", "Memory-Management", "Sequential-Thinking"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "AI-Workflow-Integration"
+  - "Memory-Management"
+  - "Sequential-Thinking"
 ---
 
 # Code Refactoring Mode

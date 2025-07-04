@@ -1,11 +1,33 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: "Analyzes project dependencies listed in configuration files (e.g., package.json, requirements.txt, pom.xml, go.mod) to check for updates, potential vulnerabilities, unused packages, or licensing issues."
-globs: ["**/package.json", "**/package-lock.json", "**/yarn.lock", "**/pnpm-lock.yaml", "**/requirements.txt", "**/Pipfile", "**/Pipfile.lock", "**/pyproject.toml", "**/poetry.lock", "**/go.mod", "**/go.sum", "**/pom.xml", "**/build.gradle", "**/Gemfile", "**/Gemfile.lock", "**/Cargo.toml", "**/Cargo.lock"]
+globs:
+  - "**/package.json"
+  - "**/package-lock.json"
+  - "**/yarn.lock"
+  - "**/pnpm-lock.yaml"
+  - "**/requirements.txt"
+  - "**/Pipfile"
+  - "**/Pipfile.lock"
+  - "**/pyproject.toml"
+  - "**/poetry.lock"
+  - "**/go.mod"
+  - "**/go.sum"
+  - "**/pom.xml"
+  - "**/build.gradle"
+  - "**/Gemfile"
+  - "**/Gemfile.lock"
+  - "**/Cargo.toml"
+  - "**/Cargo.lock"
 alwaysApply: false
 version: "2.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["AI-Workflow-Integration","Memory-Management"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "AI-Workflow-Integration"
+  - "Memory-Management"
 ---
 
 # Analyze Dependencies Mode

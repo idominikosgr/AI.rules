@@ -1,11 +1,22 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: "Reviews and implements internationalization (i18n) features, ensuring applications are ready for multiple languages and locales through proper text extraction, translation management, and locale-specific formatting."
-globs: ["**/*i18n*/**", "**/*.{json,yaml,yml}", "**/locale/**", "**/*translation*/**", "**/lang/**"]
+globs:
+  - "**/*i18n*/**"
+  - "**/*.{json,yaml,yml}"
+  - "**/locale/**"
+  - "**/*translation*/**"
+  - "**/lang/**"
 alwaysApply: false
 version: "2.0.0"
-lastUpdated: "2025-05-17"
-compatibleWith: ["UI-Component-Library", "Accessibility-Review", "Sequential-Thinking"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "UI-Component-Library"
+  - "Accessibility-Review"
+  - "Sequential-Thinking"
 ---
 
 # Internationalization Review Mode

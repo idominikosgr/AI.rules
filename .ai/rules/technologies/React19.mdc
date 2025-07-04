@@ -1,11 +1,21 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: React best practices and patterns for modern web applications
-globs: **/*.tsx, **/*.jsx, src/components/**/*, app/components/**/*
+globs:
+  - "**/*.tsx"
+  - "**/*.jsx"
+  - "src/components/**/*"
+  - "app/components/**/*"
 alwaysApply: false
 version: "2.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["TypeScript-Modern","Tailwind4","NextJS15"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "TypeScript-Modern"
+  - "Tailwind4"
+  - "NextJS15"
 ---
 
 # React Best Practices

@@ -1,11 +1,18 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: "Analyzes requirement descriptions (PRDs, user stories, feature requests) to extract, clarify, and structure functional and non-functional requirements, identifying ambiguities and potential conflicts."
-globs: ["**/*.md", "**/*.txt"]
+globs:
+  - "**/*.md"
+  - "**/*.txt"
 alwaysApply: false
 version: "2.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["AI-Workflow-Integration","Memory-Management"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "AI-Workflow-Integration"
+  - "Memory-Management"
 ---
 
 # Plan Requirements Mode

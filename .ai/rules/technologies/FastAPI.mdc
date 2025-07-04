@@ -1,11 +1,19 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: Best practices for building high-performance APIs with FastAPI, a modern Python web framework.
-globs: **/*.py, **/requirements.txt, **/pyproject.toml
+globs:
+  - "**/*.py"
+  - "**/requirements.txt"
+  - "**/pyproject.toml"
 alwaysApply: false
 version: "2.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["Python3","Docker-Kubernetes"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "Python3"
+  - "Docker-Kubernetes"
 ---
 
 # FastAPI Best Practices

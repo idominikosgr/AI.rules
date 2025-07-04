@@ -1,11 +1,22 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: Best practices for Tauri - a framework for building lightweight, secure desktop applications with web technologies.
-globs: **/tauri.conf.json, **/src-tauri/**, **/Cargo.toml, **/*.rs
+globs:
+  - "**/tauri.conf.json"
+  - "**/src-tauri/**"
+  - "**/Cargo.toml"
+  - "**/*.rs"
 alwaysApply: false
 version: "1.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["TypeScript-Modern", "React19", "Vue3", "Svelte5"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "TypeScript-Modern"
+  - "React19"
+  - "Vue3"
+  - "Svelte5"
 ---
 
 # Tauri Best Practices

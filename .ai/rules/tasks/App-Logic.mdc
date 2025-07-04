@@ -1,11 +1,17 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: "Implements core application logic, business rules, algorithms, utility functions, or backend processes based on requirements or specifications, focusing on correctness, clarity, and efficiency."
-globs: ["**/*.{js,ts,py,java,cs,go,rb,php,swift,kt,rs,c,cpp,h,hpp}"]
+globs:
+  - "**/*.{js,ts,py,java,cs,go,rb,php,swift,kt,rs,c,cpp,h,hpp}"
 alwaysApply: false
 version: "2.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["AI-Workflow-Integration","Memory-Management"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "AI-Workflow-Integration"
+  - "Memory-Management"
 ---
 
 # Implement Logic Mode

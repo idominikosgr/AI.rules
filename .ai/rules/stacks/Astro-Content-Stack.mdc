@@ -1,11 +1,18 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: Best practices for building modern static and content-focused websites with Astro, React islands, and headless CMS integrations.
-globs: **/*.{astro,ts,tsx,js,jsx,md,mdx}, **/astro.config.{js,mjs,ts}
+globs:
+  - "**/*.{astro,ts,tsx,js,jsx,md,mdx}"
+  - "**/astro.config.{js,mjs,ts}"
 alwaysApply: false
 version: "2.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["TypeScript-Modern","Astro4"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "TypeScript-Modern"
+  - "Astro4"
 ---
 
 # Modern Static/Content Stack with Astro

@@ -1,11 +1,19 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: "Writes step-by-step user guides, tutorials, or feature walkthroughs aimed at end-users, focusing on clarity, task completion, and ease of understanding for non-technical or semi-technical audiences."
-globs: ["**/docs/guides/**", "**/tutorials/**", "**/*.md"]
+globs:
+  - "**/docs/guides/**"
+  - "**/tutorials/**"
+  - "**/*.md"
 alwaysApply: false
 version: "2.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["AI-Workflow-Integration","Memory-Management"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "AI-Workflow-Integration"
+  - "Memory-Management"
 ---
 
 # Write User Guide Mode

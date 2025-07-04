@@ -1,11 +1,23 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: Best practices and guidelines for working with shadcn/ui components across various frameworks.
-globs: components.json, src/components/ui/**, app/components/ui/**, src/lib/utils.*, app/lib/utils.*, **/*.tsx, **/*.jsx
+globs:
+  - "components.json"
+  - "src/components/ui/**"
+  - "app/components/ui/**"
+  - "src/lib/utils.*"
+  - "app/lib/utils.*"
+  - "**/*.tsx"
+  - "**/*.jsx"
 alwaysApply: false
 version: "2.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["Memory-MCP","Sequential-Thinking-Advanced"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "Memory-MCP"
+  - "Sequential-Thinking-Advanced"
 ---
 
 # shadcn/ui Best Practices

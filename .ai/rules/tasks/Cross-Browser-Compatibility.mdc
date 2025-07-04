@@ -1,11 +1,20 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: "Reviews and ensures application compatibility across different browsers, addressing browser-specific issues, feature support, and rendering differences to provide consistent user experience."
-globs: ["**/*.{html,css,js,jsx,ts,tsx}", "**/browserslist*", "**/polyfill*"]
+globs:
+  - "**/*.{html,css,js,jsx,ts,tsx}"
+  - "**/browserslist*"
+  - "**/polyfill*"
 alwaysApply: false
 version: "2.0.0"
-lastUpdated: "2025-05-17"
-compatibleWith: ["UI-Component-Library", "Accessibility-Review", "CSS-Styling"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "UI-Component-Library"
+  - "Accessibility-Review"
+  - "CSS-Styling"
 ---
 
 # Cross-Browser Compatibility Mode

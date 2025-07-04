@@ -1,11 +1,20 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: "Reviews and implements mobile-responsive design patterns, ensuring applications provide optimal user experience across various device sizes, orientations, and interaction modes."
-globs: ["**/*.{html,css,scss,js,jsx,ts,tsx}", "**/media*/**", "**/*responsive*/**"]
+globs:
+  - "**/*.{html,css,scss,js,jsx,ts,tsx}"
+  - "**/media*/**"
+  - "**/*responsive*/**"
 alwaysApply: false
 version: "2.0.0"
-lastUpdated: "2025-05-17"
-compatibleWith: ["UI-Component-Library", "Accessibility-Review", "CSS-Styling"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "UI-Component-Library"
+  - "Accessibility-Review"
+  - "CSS-Styling"
 ---
 
 # Mobile-Responsive Design Mode

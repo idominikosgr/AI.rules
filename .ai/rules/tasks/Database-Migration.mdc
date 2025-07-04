@@ -1,11 +1,22 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: "Designs and implements database migration strategies for schema changes, data transformations, and version management, ensuring seamless database evolution with minimal downtime."
-globs: ["**/*migration*/**", "**/*.{sql,prisma}", "**/migrate/**", "**/migrations/**", "**/db/**"]
+globs:
+  - "**/*migration*/**"
+  - "**/*.{sql,prisma}"
+  - "**/migrate/**"
+  - "**/migrations/**"
+  - "**/db/**"
 alwaysApply: false
 version: "2.0.0"
-lastUpdated: "2025-05-17"
-compatibleWith: ["Sequential-Thinking", "Memory-Management", "Data-Modeling"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "Sequential-Thinking"
+  - "Memory-Management"
+  - "Data-Modeling"
 ---
 
 # Database Migration Mode

@@ -1,11 +1,25 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: "Generates configuration files for various development tools, frameworks, or environments (e.g., linters, formatters, build tools, Docker, CI/CD) based on user requirements or project context."
-globs: ["*.config.{js,ts,cjs,mjs}", ".*rc", ".*rc.{js,json,yaml,yml}", "tsconfig.json", "jsconfig.json", "Dockerfile", "docker-compose.yml", ".gitlab-ci.yml", ".github/workflows/*.yml"]
+globs:
+  - "*.config.{js,ts,cjs,mjs}"
+  - ".*rc"
+  - ".*rc.{js,json,yaml,yml}"
+  - "tsconfig.json"
+  - "jsconfig.json"
+  - "Dockerfile"
+  - "docker-compose.yml"
+  - ".gitlab-ci.yml"
+  - ".github/workflows/*.yml"
 alwaysApply: false
 version: "2.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["AI-Workflow-Integration","Memory-Management"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "AI-Workflow-Integration"
+  - "Memory-Management"
 ---
 
 # Generate Configuration Mode

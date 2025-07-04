@@ -1,11 +1,23 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: "Guidelines for using Supabase Auth, Database (Postgres migrations), Storage, Realtime, Edge Functions, and AI/Vectors."
-globs: "supabase/migrations/**/*.sql,supabase/seed.sql,supabase/functions/**/*,lib/supabase*.ts,lib/supabase*.js,*supabase*,*pgvector*"
+globs:
+  - "supabase/migrations/**/*.sql"
+  - "supabase/seed.sql"
+  - "supabase/functions/**/*"
+  - "lib/supabase*.ts"
+  - "lib/supabase*.js"
+  - "*supabase*"
+  - "*pgvector*"
 alwaysApply: false
 version: "2.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["Memory-MCP","Sequential-Thinking-Advanced"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "Memory-MCP"
+  - "Sequential-Thinking-Advanced"
 ---
 
 # Supabase Development Guidelines

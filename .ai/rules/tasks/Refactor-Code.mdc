@@ -1,11 +1,17 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: "Restructures existing code to improve its internal quality (readability, maintainability, simplicity, efficiency) without altering its external functionality. Addresses code smells and technical debt."
-globs: ["**/*.{js,ts,py,java,cs,go,rb,php,swift,kt,rs,c,cpp,h,hpp,jsx,tsx,vue,svelte}"]
+globs:
+  - "**/*.{js,ts,py,java,cs,go,rb,php,swift,kt,rs,c,cpp,h,hpp,jsx,tsx,vue,svelte}"
 alwaysApply: false
 version: "2.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["AI-Workflow-Integration","Memory-Management"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "AI-Workflow-Integration"
+  - "Memory-Management"
 ---
 
 # Improve Code: Refactoring Mode

@@ -1,10 +1,13 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: Guidelines for optimizing interactions with Windsurf AI assistant for code generation and development workflows.
 globs: []
 alwaysApply: false
 version: "2.1.0"
-lastUpdated: "2025-05-18"
+lastUpdated: "2025-07-04"
 compatibleWith: ["Memory-MCP","AI-Workflow-Integration"]
 ---
 

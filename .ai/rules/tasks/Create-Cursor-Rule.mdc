@@ -1,12 +1,25 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: Assists in creating new AI rule (.mdc) files for any supported IDE or AI assistant, ensuring correct formatting and structure.
-globs:
+globs: []
 alwaysApply: false
 version: "2.0.0"
-lastUpdated: "2025-05-17"
-compatibleWith: ["AI-Workflow-Integration","Memory-Management"]
-platforms: ["cursor", "vscode", "github-copilot", "claude", "openai-codex", "windsurf", "jetbrains", "zed"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "AI-Workflow-Integration"
+  - "Memory-Management"
+platforms:
+  - "cursor"
+  - "vscode"
+  - "github-copilot"
+  - "claude"
+  - "openai-codex"
+  - "windsurf"
+  - "jetbrains"
+  - "zed"
 ---
 
 # Task: Create AI Assistant Rule

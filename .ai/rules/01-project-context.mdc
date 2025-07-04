@@ -1,12 +1,29 @@
 ---
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: "Provides project-specific context like tech stack, directory structure, coding conventions, and key libraries. Needs user customization."
 globs: []
 alwaysApply: true
 version: "2.1.0"
-lastUpdated: "2025-05-18"
+lastUpdated: "2025-07-04"
 ---
 
 # Project Configuration
+
+## Role & Responsibility
+
+This file provides project-specific context to ensure the AI assistant understands the technology stack, conventions, and patterns used in this specific project.
+
+## Core Principles
+
+- **Project Consistency**: Always follow the established patterns and conventions of this specific project
+- **Technology Alignment**: Use the correct versions and configurations of the specified technology stack
+- **Convention Adherence**: Follow the project's naming conventions, file organization, and coding standards
+- **Pattern Recognition**: Learn from existing code examples and maintain consistency across implementations
+
+## Project Technology Stack
 
 ## 1. Project Overview
 - Project Name:

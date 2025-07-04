@@ -1,11 +1,18 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: SwiftUI best practices for building modern declarative user interfaces across Apple platforms.
-globs: **/*.swift
+globs:
+  - "**/*.swift"
 alwaysApply: false
 version: "2.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["Swift", "SwiftData", "Combine"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "Swift"
+  - "SwiftData"
+  - "Combine"
 ---
 
 # SwiftUI Best Practices

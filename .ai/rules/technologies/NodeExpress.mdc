@@ -1,11 +1,23 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: Node.js and Express.js best practices for backend development, emphasizing modern ESM usage.
-globs: **/*.js,**/*.mjs,**/*.cjs,**/*.ts, src/**/*.js, src/**/*.ts, package.json
+globs:
+  - "**/*.js"
+  - "**/*.mjs"
+  - "**/*.cjs"
+  - "**/*.ts"
+  - "src/**/*.js"
+  - "src/**/*.ts"
+  - "package.json"
 alwaysApply: false
 version: "2.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["TypeScript-Modern","JavaScript"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "TypeScript-Modern"
+  - "JavaScript"
 ---
 
 # Node.js and Express.js Best Practices

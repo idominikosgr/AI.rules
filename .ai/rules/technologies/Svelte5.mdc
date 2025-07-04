@@ -1,11 +1,19 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: Svelte 5+ best practices and patterns for modern web applications.
-globs: **/*.svelte, src/**/*.js, src/**/*.ts
+globs:
+  - "**/*.svelte"
+  - "src/**/*.js"
+  - "src/**/*.ts"
 alwaysApply: false
 version: "2.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["TypeScript-Modern","Tailwind4"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "TypeScript-Modern"
+  - "Tailwind4"
 ---
 
 # Svelte 5+ Best Practices

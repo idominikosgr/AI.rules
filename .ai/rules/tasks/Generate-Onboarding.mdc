@@ -1,11 +1,19 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: "Assists in creating onboarding materials for new developers, such as generating project setup instructions, explaining the codebase structure, or outlining key development workflows."
-globs: ["README.md", "CONTRIBUTING.md", "**/docs/setup.md"]
+globs:
+  - "README.md"
+  - "CONTRIBUTING.md"
+  - "**/docs/setup.md"
 alwaysApply: false
 version: "2.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["AI-Workflow-Integration","Memory-Management"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "AI-Workflow-Integration"
+  - "Memory-Management"
 ---
 
 # Process: Onboarding Mode

@@ -1,11 +1,19 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: Best practices for integrating and customizing Shadcn UI in modern React applications with a focus on Next.js, TypeScript, and Tailwind CSS.
-globs: **/*.{ts,tsx}, **/tailwind.config.{js,ts}, **/components.json
+globs:
+  - "**/*.{ts,tsx}"
+  - "**/tailwind.config.{js,ts}"
+  - "**/components.json"
 alwaysApply: false
 version: "2.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["Memory-MCP","Sequential-Thinking-Advanced"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "Memory-MCP"
+  - "Sequential-Thinking-Advanced"
 ---
 
 # Shadcn UI Integration Best Practices

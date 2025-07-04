@@ -1,9 +1,12 @@
 ---
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: "Documents common mistakes, anti-patterns, or outdated syntax specific to this project to help the AI avoid them. Needs user customization."
 globs: []
 alwaysApply: true
----
-lastUpdated: "2025-05-18"
+lastUpdated: "2025-07-04"
 ---
 
 # Common Mistakes & Anti-Patterns for This Project

@@ -1,11 +1,23 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: Best practices for integrating AI into development workflows, with task-specific patterns and code generation templates.
-globs: **/*.py, **/*.js, **/*.ts, **/*.java, **/*.swift, **/*.go
+globs:
+  - "**/*.py"
+  - "**/*.js"
+  - "**/*.ts"
+  - "**/*.java"
+  - "**/*.swift"
+  - "**/*.go"
 alwaysApply: false
 version: "1.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["Agentic-AI-Development", "Sequential-Thinking-Advanced", "Memory-MCP"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "Agentic-AI-Development"
+  - "Sequential-Thinking-Advanced"
+  - "Memory-MCP"
 ---
 
 # AI Workflow Integration Best Practices

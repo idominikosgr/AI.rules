@@ -1,12 +1,29 @@
 ---
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: Defines the available Model Context Protocol (MCP) servers and their capabilities based on the user's mcp.json. Use when interacting with any MCP Server command.
-globs:
+globs: []
 alwaysApply: false
 version: "2.1.0"
-lastUpdated: "2025-05-18"
+lastUpdated: "2025-07-04"
 compatibleWith: ["Memory-MCP", "Sequential-Thinking-Advanced", "MCP-Integration"]
 ---
 # MCP Server Configuration
+
+## Role & Responsibility
+
+This file documents the Model Context Protocol (MCP) servers available in your environment to help the AI understand which tools it can use for enhanced functionality.
+
+## Core Principles
+
+- **Tool Awareness**: Understand available MCP servers and their capabilities
+- **Proper Usage**: Use MCP tools appropriately for their intended purposes
+- **Efficiency**: Leverage MCP capabilities to provide better assistance
+- **Error Handling**: Implement proper error handling when using MCP tools
+
+## Available MCP Servers
 
 This file documents the Model Context Protocol (MCP) servers available in your environment. It helps the AI understand which tools it can use for tasks involving memory, filesystem operations, web interaction, etc.
 

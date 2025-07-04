@@ -1,11 +1,25 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: Best practices for GraphQL API development and integration across client and server applications.
-globs: **/*.graphql, **/*.gql, **/schema.graphql, **/schema.js, **/resolvers.js, **/gql*.ts, **/useQuery*.ts
+globs:
+  - "**/*.graphql"
+  - "**/*.gql"
+  - "**/schema.graphql"
+  - "**/schema.js"
+  - "**/resolvers.js"
+  - "**/gql*.ts"
+  - "**/useQuery*.ts"
 alwaysApply: false
 version: "1.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["TypeScript-Modern", "React19", "Apollo", "NextJS15"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "TypeScript-Modern"
+  - "React19"
+  - "Apollo"
+  - "NextJS15"
 ---
 
 # GraphQL Best Practices

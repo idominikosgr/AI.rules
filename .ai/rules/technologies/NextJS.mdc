@@ -1,11 +1,22 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: "Comprehensive guide for Next.js development with App Router, TypeScript, and Tailwind CSS, focusing on modern patterns and performance optimization."
-globs: ["**/*.{ts,tsx,js,jsx}", "**/next.config.js", "**/tailwind.config.js"]
+globs:
+  - "**/*.{ts,tsx,js,jsx}"
+  - "**/next.config.js"
+  - "**/tailwind.config.js"
 alwaysApply: false
 version: "2.0.0"
-lastUpdated: "2025-05-17"
-compatibleWith: ["Memory-MCP", "Sequential-Thinking-Advanced", "React19", "TypeScript-Modern", "Tailwind4"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "Memory-MCP"
+  - "Sequential-Thinking-Advanced"
+  - "React19"
+  - "TypeScript-Modern"
+  - "Tailwind4"
 ---
 
 # Next.js Development Guide

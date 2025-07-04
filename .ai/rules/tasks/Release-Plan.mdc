@@ -1,11 +1,18 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: "Helps plan and outline the steps involved in a software release process, including versioning, building, testing, tagging, documenting changes, and deploying."
-globs: ["CHANGELOG.md", "RELEASE_NOTES.md"]
+globs:
+  - "CHANGELOG.md"
+  - "RELEASE_NOTES.md"
 alwaysApply: false
 version: "2.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["AI-Workflow-Integration","Memory-Management"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "AI-Workflow-Integration"
+  - "Memory-Management"
 ---
 
 # Process: Release Mode

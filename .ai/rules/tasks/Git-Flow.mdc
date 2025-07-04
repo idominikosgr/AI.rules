@@ -1,11 +1,18 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: "Assists with Git version control tasks, including providing specific commands, explaining branching strategies, formatting commit messages, managing repositories, and resolving common Git issues."
-globs: [".git*", "**/.gitignore"]
+globs:
+  - ".git*"
+  - "**/.gitignore"
 alwaysApply: false
 version: "2.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["AI-Workflow-Integration","Memory-Management"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "AI-Workflow-Integration"
+  - "Memory-Management"
 ---
 
 # Process: Git Mode

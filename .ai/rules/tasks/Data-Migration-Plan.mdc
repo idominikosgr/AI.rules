@@ -1,11 +1,18 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: "Plans and designs strategies for migrating data between different schemas, databases, or storage systems, including steps, validation, rollback plans, and potential downtime considerations."
-globs: ["**/migrations/**", "**/*.sql"]
+globs:
+  - "**/migrations/**"
+  - "**/*.sql"
 alwaysApply: false
 version: "2.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["AI-Workflow-Integration","Memory-Management"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "AI-Workflow-Integration"
+  - "Memory-Management"
 ---
 
 # Design Data Migration Mode

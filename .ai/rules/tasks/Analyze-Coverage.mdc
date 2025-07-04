@@ -1,11 +1,19 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: "Analyzes test coverage reports (if provided) or code structure to identify areas with low test coverage and suggest specific test cases or strategies to improve it."
-globs: ["coverage/lcov.info", "coverage/coverage.xml", "coverage/clover.xml"]
+globs:
+  - "coverage/lcov.info"
+  - "coverage/coverage.xml"
+  - "coverage/clover.xml"
 alwaysApply: false
 version: "2.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["AI-Workflow-Integration","Memory-Management"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "AI-Workflow-Integration"
+  - "Memory-Management"
 ---
 
 # Analyze Test Coverage Mode

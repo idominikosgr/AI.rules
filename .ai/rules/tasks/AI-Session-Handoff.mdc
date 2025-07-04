@@ -1,11 +1,21 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: "Guidelines for creating effective AI session handoffs to maintain continuity across development sessions, preserving context and progress."
-globs: ["**/*.{py,js,ts,jsx,tsx,md}", "**/src/**", "**/lib/**", "**/docs/**"]
+globs:
+  - "**/*.{py,js,ts,jsx,tsx,md}"
+  - "**/src/**"
+  - "**/lib/**"
+  - "**/docs/**"
 alwaysApply: true
 version: "2.1.0"
-lastUpdated: "2025-05-18"
-compatibleWith: ["Memory-Management", "Memory-MCP", "AI-Workflow-Integration"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "Memory-Management"
+  - "Memory-MCP"
+  - "AI-Workflow-Integration"
 ---
 
 # Session Handoff Mode

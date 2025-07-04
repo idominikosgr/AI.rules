@@ -1,11 +1,23 @@
 ---
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: "Writes or refines technical documentation, focusing on clarity, accuracy, completeness, and structure. Covers READMEs, conceptual guides, setup instructions, feature explanations, etc."
-globs: ["**/*.md", "**/*.mdx", "**/*.rst", "**/README*", "**/CONTRIBUTING*", "**/INSTALL*", "**/docs/**"]
+globs:
+  - "**/*.md"
+  - "**/*.mdx"
+  - "**/*.rst"
+  - "**/README*"
+  - "**/CONTRIBUTING*"
+  - "**/INSTALL*"
+  - "**/docs/**"
 alwaysApply: false
 version: "2.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["AI-Workflow-Integration","Memory-Management"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "AI-Workflow-Integration"
+  - "Memory-Management"
 ---
 
 # Write Documentation Mode

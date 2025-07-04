@@ -1,14 +1,20 @@
 ---
-description: 
-globs: 
-alwaysApply: false
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: "Specialized instructions for AI assistants conducting code reviews, focusing on identifying issues, suggesting improvements, and ensuring code quality."
-globs: ["**/*.{js,ts,py,java,rb,go,cs,php,swift,kt,rs,cpp}", "**/src/**", "**/lib/**", "**/test/**"]
+globs:
+  - "**/*.{js,ts,py,java,rb,go,cs,php,swift,kt,rs,cpp}"
+  - "**/src/**"
+  - "**/lib/**"
+  - "**/test/**"
 alwaysApply: false
----
-lastUpdated: "2025-05-17"
-compatibleWith: ["AI-Workflow-Integration", "Memory-Management", "Sequential-Thinking"]
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "AI-Workflow-Integration"
+  - "Memory-Management"
+  - "Sequential-Thinking"
 ---
 
 # Code Review Mode

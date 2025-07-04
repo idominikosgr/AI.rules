@@ -1,16 +1,16 @@
 ---
----
-description: 
-globs: 
-alwaysApply: false
-version: "2.0.0"
-lastUpdated: "2025-05-14"
-compatibleWith: ["AI-Workflow-Integration","Memory-Management"]
----
----
+source: "VDK Rules"
+framework: "vdk"
+repository: "idominikosgr/VibeKit-VDK-AI-rules"
+cli_version: ">=1.0.0"
 description: "Assists in creating high-level project roadmaps, sequencing features or milestones over time, considering dependencies, priorities, and potential phases or releases."
 globs: []
 alwaysApply: false
+version: "2.0.0"
+lastUpdated: "2025-07-04"
+compatibleWith:
+  - "AI-Workflow-Integration"
+  - "Memory-Management"
 ---
 
 # Plan Roadmap Mode
